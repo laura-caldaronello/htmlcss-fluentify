@@ -146,11 +146,12 @@ nav li {
 /* inizio footer */
 
 footer {
+  height: 150px;
+  line-height: 150px;
   background-color: lightgrey;
 }
 footer h2 {
   float: left;
-  vertical-align: middle;
 }
 footer span {
   float: right;
