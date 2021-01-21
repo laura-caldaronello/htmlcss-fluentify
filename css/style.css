@@ -13,7 +13,7 @@
 }
 
 .indent {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -28,11 +28,10 @@ a.button {
   border-radius: 0.3em;
 }
 a.small {
-  padding: 0.5em 2em;
-  line-height: 3em;
+  padding: 0.5em 1em;
 }
 a.big {
-  padding: 1.5em;
+  padding: 1em;
   line-height: 6em;
 }
 a.empty {
@@ -43,8 +42,19 @@ a.green {
   background-color: rgb(124 187 2);
 }
 
+a, nav ul {
+  font-size: 0.75em;
+}
+
+.grey p, .white p, footer span, footer select {
+  color: grey;
+}
 
 /* fine classi che posso utilizzare ovunque */
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
 
 /* inizio header */
 
@@ -57,25 +67,27 @@ header {
   padding-top: 1vh;
 }
 
+nav {
+  position: relative;
+}
 nav img {
   float: left;
   height: 40px;
 }
 .menu1 {
   float: left;
-  margin-left: 3em;
+  margin-left: 1vw;
 }
 .menu2 {
   float: right;
 }
 nav ul {
   line-height: 50px;
-  font-size: 0.6em;
   list-style: none;
 }
 nav li {
   display: inline;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .header_text {
@@ -104,9 +116,9 @@ nav li {
 
 /* inizio white */
 
-.white .top > *,
-.white .bottom > * {
+.white > * > *:not(hr) {
   float: left;
+  padding: 2em;
 }
 .top > * {
   width: calc(100% / 3);
@@ -114,6 +126,9 @@ nav li {
 }
 .bottom > * {
   width: 50%;
+}
+.white > * > * > *{
+  margin: 0.5em;
 }
 .top img {
   height: 150px;
@@ -130,11 +145,23 @@ nav li {
 
 /* inizio footer */
 
+footer {
+  background-color: lightgrey;
+}
 footer h2 {
   float: left;
+  vertical-align: middle;
 }
 footer span {
   float: right;
+}
+footer select {
+  width: 10em;
+  margin: 0 1em;
+  border: none;
+  border-bottom: 1px solid grey;
+  background-color: lightgrey;
+  vertical-align: middle;
 }
 
 /* fine footer */
