@@ -17,15 +17,23 @@
   margin: 0 auto;
 }
 
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
 a.button {
   border: 1px solid;
   border-radius: 0.3em;
 }
 a.small {
   padding: 0.5em 2em;
+  line-height: 3em;
 }
 a.big {
   padding: 1.5em;
+  line-height: 6em;
 }
 a.empty {
   border-color: white;
@@ -35,13 +43,18 @@ a.green {
   background-color: rgb(124 187 2);
 }
 
+
 /* fine classi che posso utilizzare ovunque */
 
 header {
   background-image: url(../img/background-header.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
   background-color: rgb(12 50 90);
   padding-top: 1vh;
 }
+
 nav img {
   float: left;
   height: 40px;
@@ -54,16 +67,17 @@ nav img {
   float: right;
 }
 nav ul {
-  line-height: 40px;
+  line-height: 50px;
   font-size: 0.6em;
   list-style: none;
-  text-transform: uppercase;
 }
 nav li {
   display: inline;
   margin-left: 2em;
 }
-nav a {
-  text-decoration: none;
+
+.header_text {
+  width: 50%;
+  margin: 100px 0;
   color: white;
 }
