@@ -17,7 +17,7 @@
   margin: 0 auto;
 }
 
-a {
+a:not(.special) {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -107,10 +107,10 @@ nav li {
 .white .top > *,
 .white .bottom > * {
   float: left;
-  text-align: center;
 }
 .top > * {
   width: calc(100% / 3);
+  text-align: center;
 }
 .bottom > * {
   width: 50%;
@@ -119,7 +119,7 @@ nav li {
   height: 150px;
 }
 .top h3 {
-  color: rgb(12 50 90);
+  color: rgb(124 187 2);
 }
 .top hr {
   width: 20%;
