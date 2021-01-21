@@ -21,6 +21,7 @@ a:not(.special) {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+  vertical-align: middle;
 }
 
 a.button {
@@ -116,6 +117,10 @@ nav li {
 
 /* inizio white */
 
+.white > hr {
+  width: 90%;
+  margin: auto;
+}
 .white > * > *:not(hr) {
   float: left;
   padding: 2em;
