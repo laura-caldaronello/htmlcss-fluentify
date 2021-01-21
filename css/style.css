@@ -46,6 +46,8 @@ a.green {
 
 /* fine classi che posso utilizzare ovunque */
 
+/* inizio header */
+
 header {
   background-image: url(../img/background-header.png);
   background-size: 60%;
@@ -81,3 +83,47 @@ nav li {
   margin: 100px 0;
   color: white;
 }
+
+/* fine header */
+
+/* inizio grey */
+
+.grey {
+  height: 100px;
+  line-height: 100px;
+  background-color: lightgrey;
+  text-align: center;
+}
+.grey .center {
+  display: inline-block;
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+/* fine grey */
+
+/* inizio white */
+
+.white .top > *,
+.white .bottom > * {
+  float: left;
+  text-align: center;
+}
+.top > * {
+  width: calc(100% / 3);
+}
+.bottom > * {
+  width: 50%;
+}
+.top img {
+  height: 150px;
+}
+.top h3 {
+  color: rgb(12 50 90);
+}
+.top hr {
+  width: 20%;
+  margin: auto;
+}
+
+/* fine white */
