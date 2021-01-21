@@ -138,3 +138,13 @@ footer span {
 }
 
 /* fine footer */
+
+/* inizio fixed */
+
+a.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+
+/* fine fixed */
