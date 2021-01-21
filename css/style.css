@@ -127,3 +127,14 @@ nav li {
 }
 
 /* fine white */
+
+/* inizio footer */
+
+footer h2 {
+  float: left;
+}
+footer span {
+  float: right;
+}
+
+/* fine footer */
