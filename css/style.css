@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
 /* inizio classi che posso utilizzare ovunque */
 
 .clearfix::after {
@@ -52,10 +56,6 @@ a, nav ul {
 }
 
 /* fine classi che posso utilizzare ovunque */
-
-body {
-  font-family: 'Heebo', sans-serif;
-}
 
 /* inizio header */
 
